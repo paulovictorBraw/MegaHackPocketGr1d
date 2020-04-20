@@ -1,0 +1,69 @@
+/*DIA: 18/04/2020 - HORARIO: 20:08*/
+/*DEVELOP: PAULO VICTOR*/
+/*ARQUIVOS DE IMPORTACAO BOOTSTRAP*/
+@import url('../plugins/bootstrap/css/bootstrap.css');
+@import url('../plugins/bootstrap/css/bootstrap.min.css');
+@import url('../plugins/font-awesome/css/font-awesome.css');
+@import url('https://fonts.googleapis.com/css2?family=Rochester&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Revalia&display=swap');
+/*****/
+/*ARQUIVOS DE INPORTACAO FONTES*/
+@import url('https://fonts.googleapis.com/css2?family=Ruslan+Display&display=swap');
+@import url('stylePainelCliente.css');
+@import url('mini-cursos.css');
+
+/*****/
+/*ESTILOS PADROES*/
+.bg-cover{
+	background-size: cover;
+}
+.bg-no-repeat{
+	background-repeat: no-repeat;
+}
+/*ESTILOS PADROES*/
+/*ESTILOS PAGE*/
+/*FORMULARIO LOGIN*/
+.login{
+	width: 100%;
+	height: 100vh;
+	background-color: #A4DA94;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.formulario-login{
+	width: 40%;
+	padding: 20px;
+	background-color: white;
+	box-shadow: 0 0 100px black;
+	border-radius: 40px;
+}
+.formulario-login input{
+	width: 100%;
+	padding-left: 20px;
+	border-radius: 10px;
+	border: 1px solid #ccc;
+	height: 48px;
+	margin: 15px 0;
+}
+.formulario-login > a{
+	padding: 10px 30px;
+	background-color: #A4DA94;
+	color: white;
+	font-weight: bold;
+	font-size: 22px;
+	border: 1px solid black;
+	border-radius: 10px;
+	transition: 1s;
+}
+.formulario-login > a:hover{
+	background-color: #CEF375;
+	color: black;
+}
+/***/
+/*RESPONSIVO*/
+@media screen and (max-width: 600px){
+	.formulario-login{
+		width: 70%;
+	}
+}

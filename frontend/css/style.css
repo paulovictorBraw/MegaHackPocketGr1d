@@ -1,0 +1,103 @@
+/*DIA: 18/04/2020 - HORARIO: 20:08*/
+/*DEVELOP: PAULO VICTOR*/
+/*ARQUIVOS DE IMPORTACAO BOOTSTRAP*/
+@import url('../plugins/bootstrap/css/bootstrap.css');
+@import url('../plugins/bootstrap/css/bootstrap.min.css');
+/*****/
+/*ARQUIVOS DE INPORTACAO FONTES*/
+@import url('https://fonts.googleapis.com/css2?family=Ruslan+Display&display=swap');
+/*****/
+/*ESTILOS PADROES*/
+.bg-cover{
+	background-size: cover;
+}
+.bg-no-repeat{
+	background-repeat: no-repeat;
+}
+.bg-center{
+	background-position: center;
+}
+/*ESTILOS PADROES*/
+/*ESTILOS PAGE*/
+/*HEADER*/
+.menu{
+	background-color: #A4DA94;
+	padding: 10px 5%;
+	font-size: 30px;
+}
+nav a{
+	font-size: 40px;
+	font-family: 'Ruslan Display', cursive;
+}
+/***/
+/*BANNER*/
+.banner{
+	width: 100%;
+	height: 90vh;
+}
+.overlap-banner{
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0,0,0,0.2);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.chamada-banner{
+	width: 60%;
+}
+.chamada-banner h1:after{
+	content: '';
+	display: block;
+	width: 20%;
+	height: 4px;
+	background-color: white;
+	margin: 10px auto;
+	border-radius: 50px;
+}
+/***/
+/*CARDS*/
+.card{
+	padding: 20px;
+}
+.card img{
+	width: 120px; 
+	margin: 0 auto;
+}
+/***/
+/*DESCRICAO PAGE*/
+.descricao{
+	width: 100%;
+}
+.overlap{
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0,0,0,0.4);	
+	padding: 40px;
+}
+/***/
+/*FORMULARIO*/
+.container-formulario{
+	margin: 60px 0;
+}
+.container-formulario form{
+	width: 100%;
+	height: 400px;
+	background-color: #ccc;
+}
+.container-formulario a{
+	padding: 30px 60px;
+	background-color: #18A0FB;
+	font-size: 30px;
+	color: white;
+	border-radius: 30px;
+	box-shadow: 0 0 10px black;
+}
+/***/
+/*RODAPE*/
+footer{
+	background-color: #A4DA94;
+	padding: 30px 5%;
+	font-size: 18px;
+}
+/***/
